@@ -1,0 +1,77 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+1. Create variables that can hold 1 number each - entered by user (ex int var1, int var2)
+2. We should have a check in place to guard against typos (i.e. the field the user types into should only allow numbers, not words or special characters). This should block 
+these values from being typed in but should not cause the program to crash.
+
+
+Example: 
+
+int var1;
+int var2;
+int vartotal = sum (var1)(var2);
+
+If string in var1
+
+Console.WriteLine($"This is not a number.");
+
+or
+
+if string in var2
+
+Console.WriteLine($"This is not a number.");
+
+else 
+
+Console.WriteLine(total);
+
+end if
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+1. Create an integer variable. 
+2. Read the variable and check if it is even or odd
+3. Print a message of either "This is an even number" or "This is an odd number."
+
+int var1 = 0;
+
+Console.ReadLine(var1);
+
+If 
+
+var1 is Odd 
+Console.WriteLine("This is an odd number.");
+//This will print if the number is odd.
+//Ex: 1 - This is an odd number.
+
+else
+
+var1 is Even
+Console.WriteLine("This is an even number.");
+//This is will print if the number is even. 
+//Ex: 2 - This is an even number.
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+array [1,2,3,4,5];
+
+//This will display the average of the above array:
+Console.WriterLine($"Average: " + Avg(array));
+//Average: 3
+
+//This will display the minimum number in the array:
+Console.WriteLine($"Minimum: " + Min(array));
+//Minimum: 1
+
+//This will display the maximum number in the array:
+Console.WriteLine($"Maximum: " + Max(array));
+//Maximum: 5
+
+-- END --
